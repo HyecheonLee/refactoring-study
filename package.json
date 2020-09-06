@@ -1,0 +1,21 @@
+{
+  "name": "refactoring-study",
+  "version": "1.0.0",
+  "description": "공부 할려고...",
+  "main": "index.js",
+  "repository": "https://github.com/HyecheonLee/refactoring-study.git",
+  "author": "hyecheon",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "js-money": "^0.6.3",
+    "mocha": "^5.2.0",
+    "sinon": "^7.3.2"
+  },
+  "scripts": {
+    "test": "mocha --watch --recursive --require babel-core/register"
+  }
+}
