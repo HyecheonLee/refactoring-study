@@ -1,5 +1,5 @@
 function getRating(driver) {
-  return moreThanFiveLateDeliveries(driver)
+  return moreThanFiveLateDeliveries(driver) ? 2 : 1;
 }
 
 function moreThanFiveLateDeliveries(driver) {
