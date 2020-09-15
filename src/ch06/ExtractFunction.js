@@ -15,11 +15,12 @@ function printOwing(invoice) {
 
   printDetails();
 
-  function printDetails() {
-    console.log(`고객명: ${invoice.customer}`)
-    console.log(`채무액: ${outstanding}`)
-    console.log(`마감일: ${invoice.dueDate.toLocaleDateString()}`)
-  }
+}
+
+function printDetails(invoice, outstanding) {
+  console.log(`고객명: ${invoice.customer}`)
+  console.log(`채무액: ${outstanding}`)
+  console.log(`마감일: ${invoice.dueDate.toLocaleDateString()}`)
 }
 
 function printBanner() {
